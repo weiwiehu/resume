@@ -1,0 +1,142 @@
+{
+  "labels": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "present": "Present",
+    "switchLang": "中文"
+  },
+  "basics": {
+    "name": "Yi Wei Hu",
+    "label": "UI Frontend Engineer",
+    "email": "weiwie90@gmail.com",
+    "summary": "Frontend Engineer with 3+ years of experience in developing and maintaining web-based WMS applications. Skilled in JavaScript, HTML, and CSS, with experience in feature development, system integration, and workflow analysis. Focused on building practical interfaces that meet real-world operational needs.",
+    "location": {
+      "city": "Tainan"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "weiwiehu",
+        "url": "https://github.com/weiwiehu"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "eCATCH automation co., ltd.",
+      "position": "Frontend Engineer(UI/UX)",
+      "startDate": "2023-09",
+      "endDate": "",
+      "summary": "Develop and maintain web-based Warehouse Management Systems (WMS), including UI updates, requirements discussions, workflow analysis, and feature planning.",
+      "highlights": [
+        "Develop and maintain frontend features using JavaScript, jQuery, HTML, CSS, and JSP.",
+        "Contribute to multiple WMS projects, developing features related to inbound, outbound, production, picking, and inventory operations.",
+        "Analyze warehouse workflows and discuss requirements to plan system features and validation rules for different operational scenarios.",
+        "Prepare UX documents and plan workflows for selected projects, translating operational requirements into system features.",
+        "Contribute to UI design for the company's new WMS interface using Figma.",
+        "Integrate a third-party facial recognition system, handling login parameters, verification results, and page redirection.",
+        "Use Git for version control and contribute to shared UI components, bug fixes, and system maintenance."
+      ]
+    },
+    {
+      "name": "Galaxy Software Services Corporation",
+      "position": "Assistant Programmer (Intern)",
+      "startDate": "2022-07",
+      "endDate": "2023-06",
+      "summary": "Contributed to web application development and maintenance, gaining experience in frontend development and software testing.",
+      "highlights": [
+        "Contributed to frontend interface and feature development using React.",
+        "Gained experience with C#, .NET, and MVC while assisting with feature maintenance and code fixes.",
+        "Participated in functional and unit testing, gaining experience in software development workflows and team collaboration."
+      ]
+    },
+    {
+      "name": "National Taitung University",
+      "position": "Student Assistant to Professor Eric Siu-kei Cheng",
+      "startDate": "2021-07",
+      "endDate": "2023-03",
+      "summary": "Assisted with website development, webpage editing, and visual design for university projects, applying knowledge gained from Information Management studies.",
+      "highlights": [
+        "Created and edited webpages and adjusted page layouts.",
+        "Discussed website requirements and assisted with website structure and content planning.",
+        "Used Adobe Illustrator and Adobe Photoshop to create product packaging, logos, and visual assets.",
+        "Collaborated with professors, industry partners, and students from different departments to complete project tasks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Resume Website",
+      "description": "Built with React and Vite, deployed to GitHub Pages via GitHub Actions.",
+      "url": "https://github.com/weiwiehu/resume",
+      "keywords": ["React", "Vite", "GitHub Actions"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "React"
+      ]
+    },
+    {
+      "name": "Programming Languages and Frameworks",
+      "keywords": [
+        "C#",
+        "Java",
+        ".NET",
+        "MVC"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "keywords": [
+        "Git",
+        "NetBeans"
+      ]
+    },
+    {
+      "name": "Design Tools",
+      "keywords": [
+        "Figma",
+        "Adobe Illustrator",
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "name": "System Development",
+      "keywords": [
+        "Warehouse Management Systems (WMS)",
+        "API Integration",
+        "Third-party System Integration",
+        "Shared UI Component Development"
+      ]
+    },
+    {
+      "name": "Requirements Analysis and Workflow Planning",
+      "keywords": [
+        "Requirements Discussion",
+        "Workflow Analysis",
+        "UI Planning",
+        "UX Documentation",
+        "Feature Planning"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Taitung University",
+      "area": "Department of Information Science and Management Systems",
+      "studyType": "Bachelor",
+      "startDate": "2019-09",
+      "endDate": "2023-06"
+    }
+  ]
+}

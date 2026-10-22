@@ -1,0 +1,142 @@
+{
+  "labels": {
+    "about": "關於我",
+    "experience": "工作經歷",
+    "projects": "專案作品",
+    "skills": "技能",
+    "education": "學歷",
+    "present": "至今",
+    "switchLang": "English"
+  },
+  "basics": {
+    "name": "Yi Wei Hu",
+    "label": "UI 網頁前端工程師",
+    "email": "weiwie90@gmail.com",
+    "summary": "具備 3 年以上 Web 系統開發經驗，主要負責 WMS 前端開發、功能維護及介面改版。熟悉 JavaScript、HTML、CSS，並具備需求討論、作業流程分析與系統功能規劃經驗，致力於將實際使用情境轉化為直覺且實用的系統介面。",
+    "location": {
+      "city": "台南"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "weiwiehu",
+        "url": "https://github.com/weiwiehu"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "高琪系統整合股份有限公司",
+      "position": "前端開發工程師（UI/UX）",
+      "startDate": "2023-09",
+      "endDate": "",
+      "summary": "負責 WMS 倉儲管理系統的 Web 前端開發、介面改版與維護，並參與需求討論、作業流程分析及系統功能規劃。",
+      "highlights": [
+        "使用 JavaScript、jQuery、HTML、CSS 及 JSP 進行前端功能開發與維護。",
+        "參與多個 WMS 專案，開發入庫、出庫、生產、揀貨及庫存相關功能。",
+        "參與需求討論與倉儲作業流程分析，依據不同廠區及操作情境規劃系統功能與前端卡控。",
+        "負責部分專案的 UX 文件、操作流程規劃及前端開發，協助將實際作業需求轉換為系統功能。",
+        "使用 Figma 參與公司新版 WMS UI 介面設計。",
+        "整合第三方人臉辨識系統，處理登入參數、驗證結果及系統導頁。",
+        "使用 Git 進行版本控制，並參與公版介面製作、Bug 修正及系統維護。"
+      ]
+    },
+    {
+      "name": "叡揚資訊股份有限公司",
+      "position": "助理程式設計師（實習）",
+      "startDate": "2022-07",
+      "endDate": "2023-06",
+      "summary": "參與 Web 系統開發與既有專案維護，累積前端開發及軟體測試經驗。",
+      "highlights": [
+        "使用 React 參與前端介面及功能開發。",
+        "接觸 C#、.NET、MVC 等技術，協助專案功能維護與程式修正。",
+        "參與功能測試及單元測試，累積軟體開發流程與團隊協作經驗。"
+      ]
+    },
+    {
+      "name": "國立臺東大學",
+      "position": "鄭肇祺教授工讀生",
+      "startDate": "2021-07",
+      "endDate": "2023-03",
+      "summary": "協助教授相關專案進行網站製作、網頁編輯及視覺設計，將資訊管理相關所學應用於實際專案。",
+      "highlights": [
+        "負責網頁製作、網站內容編輯及版面調整。",
+        "參與網站需求討論，協助規劃網頁架構與內容。",
+        "使用 Adobe Illustrator、Adobe Photoshop 製作產品包裝、LOGO 及視覺素材。",
+        "與教授、業者及不同系所成員協作，配合專案需求完成相關工作。"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "個人簡介網站",
+      "description": "以 React 與 Vite 建置，透過 GitHub Actions 部署到 GitHub Pages。",
+      "url": "https://github.com/weiwiehu/resume",
+      "keywords": ["React", "Vite", "GitHub Actions"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "前端開發",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "React"
+      ]
+    },
+    {
+      "name": "程式語言與框架",
+      "keywords": [
+        "C#",
+        "Java",
+        ".NET",
+        "MVC"
+      ]
+    },
+    {
+      "name": "開發工具",
+      "keywords": [
+        "Git",
+        "NetBeans"
+      ]
+    },
+    {
+      "name": "設計工具",
+      "keywords": [
+        "Figma",
+        "Adobe Illustrator",
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "name": "系統開發",
+      "keywords": [
+        "WMS",
+        "API 串接",
+        "第三方系統整合",
+        "公版元件開發"
+      ]
+    },
+    {
+      "name": "需求分析與流程規劃",
+      "keywords": [
+        "需求討論",
+        "作業流程分析",
+        "介面規劃",
+        "UX 文件撰寫",
+        "系統功能規劃"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立臺東大學",
+      "area": "資訊管理學系",
+      "studyType": "學士",
+      "startDate": "2019-09",
+      "endDate": "2023-06"
+    }
+  ]
+}
