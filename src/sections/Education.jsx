@@ -1,4 +1,4 @@
-import DateRange from '../components/DateRange'
+import DateRange from '../components/DateRange';
 
 export default function Education({ title, items, presentLabel }) {
   return (
@@ -14,5 +14,5 @@ export default function Education({ title, items, presentLabel }) {
         </article>
       ))}
     </section>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import styles from './Tags.module.css'
+import styles from './Tags.module.css';
 
 export default function Tags({ items }) {
   return (
@@ -9,5 +9,5 @@ export default function Tags({ items }) {
         </li>
       ))}
     </ul>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import Tags from '../components/Tags'
+import Tags from '../components/Tags';
 
 export default function Projects({ title, items }) {
   return (
@@ -16,5 +16,5 @@ export default function Projects({ title, items }) {
         </article>
       ))}
     </section>
-  )
+  );
 }

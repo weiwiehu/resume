@@ -1,4 +1,4 @@
-import Tags from '../components/Tags'
+import Tags from '../components/Tags';
 
 export default function Skills({ title, items }) {
   return (
@@ -11,5 +11,5 @@ export default function Skills({ title, items }) {
         </article>
       ))}
     </section>
-  )
+  );
 }

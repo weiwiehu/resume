@@ -1,7 +1,7 @@
-import styles from './Hero.module.css'
+import styles from './Hero.module.css';
 
 export default function Hero({ basics, switchLabel, onSwitchLang }) {
-  const github = basics.profiles.find((p) => p.network === 'GitHub')
+  const github = basics.profiles.find((p) => p.network === 'GitHub');
 
   return (
     <header className={styles.hero}>
@@ -27,5 +27,5 @@ export default function Hero({ basics, switchLabel, onSwitchLang }) {
         )}
       </ul>
     </header>
-  )
+  );
 }

@@ -4,5 +4,5 @@ export default function About({ title, summary }) {
       <h2>{title}</h2>
       <p>{summary}</p>
     </section>
-  )
+  );
 }
