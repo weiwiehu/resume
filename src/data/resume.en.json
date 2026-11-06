@@ -27,9 +27,10 @@
   "work": [
     {
       "name": "eCATCH automation co., ltd.",
-      "position": "Frontend Engineer(UI/UX)",
+      "position": "Frontend Engineer (UI/UX)",
       "startDate": "2023-09",
       "endDate": "",
+      "keywords": ["JavaScript", "jQuery", "JSP", "HTML", "CSS", "Figma", "Git"],
       "summary": "Develop and maintain web-based Warehouse Management Systems (WMS), including UI updates, requirements discussions, workflow analysis, and feature planning.",
       "highlights": [
         "Develop and maintain frontend features using JavaScript, jQuery, HTML, CSS, and JSP.",
@@ -43,9 +44,11 @@
     },
     {
       "name": "Galaxy Software Services Corporation",
-      "position": "Assistant Programmer (Intern)",
+      "position": "Assistant Programmer",
       "startDate": "2022-07",
       "endDate": "2023-06",
+      "type": "Intern",
+      "keywords": ["React", "C#", ".NET", "MVC"],
       "summary": "Contributed to web application development and maintenance, gaining experience in frontend development and software testing.",
       "highlights": [
         "Contributed to frontend interface and feature development using React.",
@@ -58,6 +61,8 @@
       "position": "Student Assistant to Professor Eric Siu-kei Cheng",
       "startDate": "2021-07",
       "endDate": "2023-03",
+      "type": "Part-time",
+      "keywords": ["Adobe Illustrator", "Adobe Photoshop"],
       "summary": "Assisted with website development, webpage editing, and visual design for university projects, applying knowledge gained from Information Management studies.",
       "highlights": [
         "Created and edited webpages and adjusted page layouts.",

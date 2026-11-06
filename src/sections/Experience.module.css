@@ -1,0 +1,164 @@
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 24px;
+  border-left: 2px solid var(--border);
+  list-style: none;
+}
+
+/* 線條隨捲動畫出：以畫面 70% 高度為基準線，和自動展開的位置一致；不支援的瀏覽器只顯示灰色底線 */
+@supports (animation-timeline: view()) {
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    width: 2px;
+    background: var(--accent);
+    transform-origin: top;
+    animation: draw linear both;
+    animation-timeline: view(block 70% 30%);
+  }
+}
+
+@keyframes draw {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.item {
+  position: relative;
+  transition: opacity 0.4s;
+}
+
+/* 非焦點段落淡化，滑鼠移入或鍵盤聚焦時恢復 */
+.dim:not(:hover, :focus-within) {
+  opacity: 0.45;
+}
+
+.item + .item {
+  margin-top: 28px;
+}
+
+/* 時間軸圓點，對齊左側線條中心 */
+.item::before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: -31px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--text);
+  border-radius: 50%;
+  background: var(--bg);
+  transition:
+    background 0.3s,
+    border-color 0.3s;
+}
+
+.open::before {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px 16px;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* 展開狀態的箭頭 */
+.toggle::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-top: -4px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.3s;
+}
+
+.open .toggle::after {
+  margin-top: 4px;
+  transform: rotate(-135deg);
+}
+
+.type {
+  padding: 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.body {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.open .body {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner > :first-child {
+  margin-top: 12px;
+}
+
+.inner > * + * {
+  margin-top: 8px;
+}
+
+.inner ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline::before {
+    display: none;
+  }
+
+  .item,
+  .item::before,
+  .toggle::after,
+  .body {
+    transition: none;
+  }
+}

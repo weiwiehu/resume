@@ -30,6 +30,7 @@
       "position": "前端開發工程師（UI/UX）",
       "startDate": "2023-09",
       "endDate": "",
+      "keywords": ["JavaScript", "jQuery", "JSP", "HTML", "CSS", "Figma", "Git"],
       "summary": "負責 WMS 倉儲管理系統的 Web 前端開發、介面改版與維護，並參與需求討論、作業流程分析及系統功能規劃。",
       "highlights": [
         "使用 JavaScript、jQuery、HTML、CSS 及 JSP 進行前端功能開發與維護。",
@@ -43,9 +44,11 @@
     },
     {
       "name": "叡揚資訊股份有限公司",
-      "position": "助理程式設計師（實習）",
+      "position": "助理程式設計師",
       "startDate": "2022-07",
       "endDate": "2023-06",
+      "type": "實習",
+      "keywords": ["React", "C#", ".NET", "MVC"],
       "summary": "參與 Web 系統開發與既有專案維護，累積前端開發及軟體測試經驗。",
       "highlights": [
         "使用 React 參與前端介面及功能開發。",
@@ -58,6 +61,8 @@
       "position": "鄭肇祺教授工讀生",
       "startDate": "2021-07",
       "endDate": "2023-03",
+      "type": "兼職",
+      "keywords": ["Adobe Illustrator", "Adobe Photoshop"],
       "summary": "協助教授相關專案進行網站製作、網頁編輯及視覺設計，將資訊管理相關所學應用於實際專案。",
       "highlights": [
         "負責網頁製作、網站內容編輯及版面調整。",
